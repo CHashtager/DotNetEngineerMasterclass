@@ -10,7 +10,7 @@ Before you begin, ensure you have a GitHub account and are familiar with GitHub 
 
 Contributions to the repository can take many forms. Here are some ways you can help improve the project:
 
-- **Reporting Bugs**: If you find a bug or an error in any of the documentation, please open an issue to report it. Be as specific as possible, providing steps to reproduce the issue and any other details that might help resolve it.
+- **Reporting Bugs**: If you find a bug or an error in any of the documentation.
 
 - **Suggesting Enhancements**: This can include new features, improvements to existing documentation, or new topics you believe should be covered. Open an issue to suggest your enhancement, providing a clear and detailed explanation of your ideas.
 
