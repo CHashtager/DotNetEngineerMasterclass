@@ -1,0 +1,23 @@
+# Definition
+
+- **Event-Driven Architecture (EDA):** A software architecture paradigm where the system is driven by events, which are produced, detected, consumed, and reacted to.
+- **Event:** An occurrence or change of state within a system that is significant and needs to be handled.
+- **Event Producer:** The component that generates or emits events.
+- **Event Emitter (Agents):** The component responsible for publishing events to an event channel or queue.
+- **Event Notification:** The mechanism of communicating that an event has occurred.
+- **Event Handler:** The component that receives and processes events.
+- **Event Loop:** A programming construct that waits for and dispatches events or messages in a program.
+- **Event Carried State Transfer:** An architectural pattern where the state is transferred as part of the event, avoiding the need for external state management.
+- **Event Store:** A database optimized for storing and retrieving events, often used in Event Sourcing.
+- **Event Sourcing:** A pattern where the application state is persisted as a sequence of events, enabling reconstruction of the state by replaying the events.
+- **Event Queue:** A queue that holds events until they can be processed by consumers.
+- **Event Mediator:** A component that sits between event producers and consumers, routing events and enforcing rules or transformations.
+- **Event Channel:** A communication mechanism that enables event producers to send events and event consumers to receive them.
+- **Event Processor:** A component that processes events from an event channel or queue, performing actions or transformations.
+- **Event Consumer:** The component that receives and acts upon events.
+- **Benefits of EDA:** Decoupling, scalability, flexibility, responsiveness, and better alignment with business processes.
+- **Considerations of EDA:** Complexity, eventual consistency, ordering, and idempotency.
+- **Advantages of EDA:** Loose coupling, better scalability, better performance, and better fault tolerance.
+- **Orchestration vs. Choreography:** Orchestration involves a central coordinator, while choreography is decentralized with each component aware of the overall process.
+- **Resolving Duplicates:** Use unique identifiers, deduplication mechanisms, or idempotent operations.
+- **Idempotence:** The property of an operation that can be applied multiple times without changing the result beyond the initial application.
