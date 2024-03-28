@@ -1,0 +1,22 @@
+# Tree Data Structures
+
+- **Binary Search Tree:** Sorted data with efficient search, insert and delete operations
+  - For any given node, all values in the left subtree are less than the node's value, and all values in the right subtree are greater.
+  - Lookup, insertion, and deletion operations have an average time complexity of O(log n) and a worst-case time complexity of O(n) when the tree is skewed.
+  - The value of each node is greater than the left subtree and less than the right subtree.
+- **Tree Traversals:** Different ways to visit nodes in a tree
+  - **Breadth-First:** Level by level
+    - Visits all nodes at the same level before moving to the next level.
+  - **Depth-First:** Pre-order, In-order, Post-order
+    - **Pre-order**: Root -> Left -> Right
+    - **Post-order**: Left -> Right -> Root
+    - **In-order**: Left -> Root -> Right (ascending order for BST)
+- **Balanced Trees:** Self-balancing trees for efficient operations
+  - **Self-Balancing Trees**: AVL Tree, Red-Black Tree, and B-Tree are examples of self-balancing trees that maintain a balanced structure to ensure logarithmic time complexity for operations.
+  - O(log n) complexity
+  - **AVL Tree:** Height-balanced binary search tree
+    - The heights of the two child subtrees of any node differ by no more than one.
+  - **Red-Black Tree:** Self-balancing binary search tree
+    - Ensures balance by coloring nodes red or black
+  - **B-Tree:** Self-balancing tree for disk-based data structures
+    - Allowing more than two children per node. B-Trees are optimized for systems that read and write large blocks of data, such as databases and filesystems.
