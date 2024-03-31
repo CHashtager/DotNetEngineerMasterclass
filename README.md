@@ -1,6 +1,6 @@
 # DotNet Engineer Masterclass
 
-This repository was born out of the challenges and questions faced during real software engineering interviews, offering in-depth coverage on a wide array of topics. This will be a prepration handbook for job interviews.
+This repository was born out of the challenges and questions faced during real software engineering interviews, offering in-depth coverage on a wide array of topics. This will be a preparation handbook for job interviews.
 
 ## Topics Covered
 
