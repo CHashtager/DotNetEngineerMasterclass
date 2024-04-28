@@ -49,6 +49,7 @@ Prevent multiple threads from modifying shared resources simultaneously, which c
   - Semaphore
     - **Usage:** Limits the number of threads that can access a resource concurrently. A semaphore maintains a count of permits, and threads must acquire a permit to proceed, which they release when they're done.
     - **Internally**: Manages a counter to keep track of the number of available permits. Threads wait if no permits are available and proceed when they can acquire a permit.
+    - **Note**: Cannot used in async.
     - **Example:**
 
             ```csharp
@@ -71,6 +72,7 @@ Prevent multiple threads from modifying shared resources simultaneously, which c
   - Semaphore-Slim
     - **Usage:** A lightweight alternative to Semaphore for limiting concurrent access.
     - **Internally:** Uses efficient signaling mechanisms.
+    - **Note**: Asynchronously
     - **Example:**
 
             ```csharp

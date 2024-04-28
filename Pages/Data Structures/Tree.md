@@ -1,9 +1,8 @@
 # Tree Data Structures
 
 - **Binary Search Tree:** Sorted data with efficient search, insert and delete operations
-  - For any given node, all values in the left subtree are less than the node's value, and all values in the right subtree are greater.
+  - The value of each node is greater than the left subtree and less than the right subtree.  
   - Lookup, insertion, and deletion operations have an average time complexity of O(log n) and a worst-case time complexity of O(n) when the tree is skewed.
-  - The value of each node is greater than the left subtree and less than the right subtree.
 - **Tree Traversals:** Different ways to visit nodes in a tree
   - **Breadth-First:** Level by level
     - Visits all nodes at the same level before moving to the next level.

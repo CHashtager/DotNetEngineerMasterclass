@@ -2,18 +2,18 @@
 
 Continue operating without interruption despite failures in individual components or services.
 
-[Asynchronous Communication](Fault-Tolerant/Asynchronous%20Communication.md)
+[Asynchronous Communication](Fault-Tolerant%20System/Asynchronous%20Communication.md)
 
-[Fallback](Fault-Tolerant/Fallback.md)
+[Fallback](Fault-Tolerant%20System/Fallback.md)
 
-[Timeouts](Fault-Tolerant/Timeouts.md)
+[Timeouts](Fault-Tolerant%20System/Timeouts.md)
 
-[Deadline](Fault-Tolerant/Deadline.md)
+[Deadline](Fault-Tolerant%20System/Deadline.md)
 
-[Retries](Fault-Tolerant/Retries.md)
+[Retries](Fault-Tolerant%20System/Retries.md)
 
-[Rate Limiter](Fault-Tolerant/Rate%20Limiter.md)
+[Rate Limiter](Fault-Tolerant%20System/Rate%20Limiter.md)
 
-[Cascading Failures](Fault-Tolerant/Cascading%20Failures.md)
+[Cascading Failures](Fault-Tolerant%20System/Cascading%20Failures.md)
 
-[Single Point of Failure](Fault-Tolerant/Single%20Point%20of%20Failure.md)
+[Single Point of Failure](Fault-Tolerant%20System/Single%20Point%20of%20Failure.md)
